@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>The Arabian Special</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div
+      class="navbar navbar-expand-md  navbar-dark text-white fixed-top"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">The Arabian Special</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="./index.html"  class="nav-link text-light">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Reservation" class="nav-link text-light">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Menu" class="nav-link text-light">Menu</a>
+            </li>
+            
+            </li>
+            <li class="nav-item"><a href="#About Us" class="nav-link text-light">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="Section_top">
+      <div class="content">
+        <h1>The Arabian <span>Special </span></h1>
+      </div>
+    </div>
+    <!----Reservation-->
+    <section id="Reservation" class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm mb-3 reserve-col">
+            <form >
+              <div class="form-group">
+                <div class="py-2">
+                  <i class="bi bi-telephone-fill" style="color: red;"></i>
+                </div>
+                <p class="text-dark">
+                  Please leave your number we will call to make a reservation
+                </p>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleInputName1"
+                  aria-describedby="nameHelp"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleInputphoneNumber1"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div >
+              <button type="submit" class="btn btn-primary mt-2 " style="background-color: red;">Submit</button>
+            </form>
+          </div>
+          <div class="col-sm mb-3 reserve-col">
+            <div>
+              <h3 style="color: red;">Opening times</h3>
+              <p class="row">
+                <span>Monday—Thursday: 08:00 — 22:00</span>
+                <span>Friday—Saturday: 09:00 — 23:00 </span>
+                <span>Sunday: 10:00 — 17:00</span>
+              </p>
+            </div>
+            </div>
+          <div class="col-sm mb-3 reserve-col">
+            <div>
+              <h3 style="color: red;">Contact</h3>
+              <p>
+                <span>07808935782</span>
+                <br />
+                <span>Iraq-baghdad</span>
+                <br />
+                <span>Amel Street 805-42-41</span>
+              </p>
+            </div>          </div>
+        </div>
+      </div>
+    </section>
+    <!----Menu-->
+    <section id="Menu" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4 text-danger bg-">Our Menu</h2>
+        <ul class="nav nav-pills mb-3 nav-justified" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Main Dishes</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Desserts</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Beverages</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <div class="row text-center">
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                  src="/images/Dolma.jpg"
+                  style="width: 300px; height: 200px;"
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Dolma</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/kebab.jpg"
+                style="width: 300px; height: 200px;"
+                alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Kebab</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/shawrma.jpg"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Shawrma</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/Doner.jpg"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">doner</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/Falafel.webp"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Falafel</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/Shish.jpg"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Shish Tawook</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/shakshouka.jpg"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Shakshouka</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/kufta.jpg"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">Kofta</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="h1 mt-3"></div>
+              <div class="card-body text-center">
+                <img
+                src="/images/mulukhiyah-with-chicken-above.jpeg"
+                style="width: 300px; height: 200px;"                  
+                  alt=""
+                  class="card-image-top"
+                />
+                <h4 class="card-title text-danger">mulukhiyah</h4>
+                <p class="card-text text-start">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Facere, odit!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------Dessert-->
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="row text-center">
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Halva.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Halva</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Kanafeh_Nabulsieh.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Kanafeh</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/kataif.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Kataifi</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/atayef.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Atayef</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Ghraybeh-Ghorayeba-feature-image-500x375.webp"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Ghraybeh</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/mamouul.webp"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Maamoul</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Kahk-Cookies-9.sm_-720x720.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Kahk</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/leigmat.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Lgeimat</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/basbousa-with-qashta-recipe.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Basbousa</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----Drinks-->
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="row text-center">
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/sahlab.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Sahlab</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Black-coffee-feature-image.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Black Coffee</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/cappuccino-2029-e80b7c6d318c7862df2c4c8623a11f99@1x.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Cappucino</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/espresso.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Espresso</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Turkish Coffee.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Turkish Coffee</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Mocha Coffee.webp"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Mocha Coffee</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Hot Chocolate.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Hot Chocolate</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Cafe Latte.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Latte</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="card bg-dark text-light mb-3">
+          <div class="h1 mt-3"></div>
+          <div class="card-body text-center">
+            <img
+                src="/images/Green Tea.jpg"
+                  style="width: 300px; height: 200px;"
+
+              alt=""
+              class="card-image-top"
+            />
+            <h4 class="card-title text-danger">Green Tea</h4>
+            <p class="card-text text-start">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Facere, odit!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div></div>
+    </div>
+  </div>
+
+    </section>
+<!---About-->
+    <section
+      id="About Us"
+      class="bg-dark text-light text-center text-sm-start py-5"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-center">
+          <div class="py-3">
+            <h1 class="display-2">
+              <span class="text-danger"> Arabian </span>Special
+            </h1>
+            <p class="py-1 lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil,
+              alias tenetur neque fugiat totam repellat velit reprehenderit sit
+              facilis excepturi cum cumque ducimus provident similique earum,
+              eum autem doloremque dolorem voluptatem minima magni, quod dolore!
+              Expedita a omnis atque magnam.
+            </p>
+          </div>
+          <img
+            class="d-none d-md-block img-fluid w-50"
+            src="/images/2.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!---footer-->
+  <footer class="py-4 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <div class="icons">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+      </div>
+      <p class="lead py-2">Copyright &copy; 2021 <a href="https://www.instagram.com/dev.aliyass/" target="_blank">Ali yass</a></p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-3">
+        <i class="bi bi-arrow-up-circle h2"></i>
+      </a>
+    </div>
+  </footer>
+</html>

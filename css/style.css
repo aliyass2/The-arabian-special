@@ -1,0 +1,106 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.Section_top {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  background-image: url(/images/1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.content h1 {
+  color: #fff;
+  font-size: 60px;
+  letter-spacing: 15px;
+}
+.content h1 span {
+  color: rgb(131, 71, 71);
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar{
+  background: #222222;
+}
+.nav-item a:hover{
+  color: #fd0d0d !important; 
+}
+.description p {
+  text-align: center;
+  padding-top: 10px;
+  width: 60%;
+  margin: auto;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.description h1 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-top: 10px;
+}
+.nav-pills .nav-link.active {
+  color: #fff;
+  background-color: #fd0d0d;
+}
+.reserve-col{
+  border-radius: 8px;
+  padding: 25px;
+  margin: 5px;
+  background: #f8e2e2;
+  transition: all ease-in-out 0.5s;
+}
+.lead a{
+  text-decoration: none;
+color: #fd0d0d;
+}
+.btn-primary{
+  border: none;
+}
+.btn-primary:hover{
+  color: #fd0d0d;
+  background: #fff !important;
+}
+.reserve-col:hover{
+  box-shadow: 10px 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.icons{
+  margin: 15px 0;
+  font-size: 26px;
+}
+.icons .bi{
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: all ease-in-out 0.3s;
+}
+.icons .bi:hover{
+background: #fd0d0d;
+}
